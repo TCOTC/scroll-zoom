@@ -1,0 +1,39 @@
+{
+  "name": "scroll-zoom",
+  "author": "Jeffrey Chen",
+  "url": "https://github.com/TCOTC/scroll-zoom",
+  "version": "1.0.0",
+  "minAppVersion": "3.8.2-alpha.7",
+  "backends": [
+    "windows",
+    "linux",
+    "darwin",
+    "ios",
+    "android",
+    "harmony",
+    "docker",
+    "all"
+  ],
+  "frontends": [
+    "desktop",
+    "mobile",
+    "browser-desktop",
+    "browser-mobile",
+    "desktop-window",
+    "all"
+  ],
+  "disabledInPublish": false,
+  "displayName": {
+    "default": "Scroll Zoom Editor Font Size",
+    "zh-CN": "滚轮调整编辑器字号"
+  },
+  "description": {
+    "default": "Hold Ctrl and use the mouse wheel or a trackpad pinch to adjust the editor font size.",
+    "zh-CN": "按住 Ctrl，用鼠标滚轮或触控板捏合调整编辑器字号。"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh-CN": "README.zh-CN.md"
+  },
+  "funding": { "custom": ["https://mytemos.com/"] }
+}
