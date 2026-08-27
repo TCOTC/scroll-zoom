@@ -4,28 +4,16 @@
   "url": "https://github.com/TCOTC/scroll-zoom",
   "version": "1.0.0",
   "minAppVersion": "3.8.2-alpha.7",
-  "backends": [
-    "windows",
-    "linux",
-    "darwin",
-    "ios",
-    "android",
-    "harmony",
-    "docker",
-    "all"
-  ],
+  "backends": ["all"],
   "frontends": [
     "desktop",
-    "mobile",
     "browser-desktop",
-    "browser-mobile",
-    "desktop-window",
-    "all"
+    "desktop-window"
   ],
-  "disabledInPublish": false,
+  "disabledInPublish": true,
   "displayName": {
-    "default": "Scroll Zoom Editor Font Size",
-    "zh-CN": "滚轮调整编辑器字号"
+    "default": "Scroll Zoom Font Size",
+    "zh-CN": "滚轮缩放字号"
   },
   "description": {
     "default": "Hold Ctrl and use the mouse wheel or a trackpad pinch to adjust the editor font size.",
@@ -35,5 +23,5 @@
     "default": "README.md",
     "zh-CN": "README.zh-CN.md"
   },
-  "funding": { "custom": ["https://mytemos.com/"] }
+  "funding": {"custom": ["https://mytemos.com/"]}
 }
